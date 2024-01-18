@@ -1,0 +1,22 @@
+
+.swiper {
+    width: 100%;
+    padding: 0 2rem;
+    
+}
+
+
+
+
+.swiper-slide {
+    padding: 2.5rem 0;
+    width:100%;
+ 
+}
+
+.swiper-slide.swiper-slide-active .card-template{
+    
+    border: 1px solid var(--Purple-60);
+    
+}
+

@@ -1,0 +1,68 @@
+
+
+.footer-top {
+    
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+.footer-top::before{
+    
+    background-image: url(../../../../public/imgs/left-gradient.png);
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.footer-top::after{
+    
+    background-image: url(../../../../public/imgs/right-gradient.png);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 55%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width: 762px) {
+    
+    .footer-top::before{
+        left: -320px;
+        top: -70px;
+        background-size: 100%;
+        transform: rotate(90deg);
+        width: 522px;
+
+        
+    
+        
+    
+    }
+
+    .footer-top::after{
+    
+        width: 398px;
+        top: 300px;
+        left: 45%;
+        background-size: 100%;
+        
+       
+    
+    }
+
+   
+}
