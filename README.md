@@ -8,6 +8,7 @@ Ter as dependências da biblioteca do React.js É Primordial, então antes de co
 
  **Nota
  Tenha o Node.js instalado na sua máquina, caso contrário não irá funcionar
+ Não estarei fazendo o Upload do Node Modules por questões de armazenamento
 
 npm i react
 
